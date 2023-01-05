@@ -115,7 +115,8 @@ button {
 /* -------Part-2------ */
 
 .part-2 {
-    background-color: rgba(38, 143, 143, 0.405);
+    background-color:none
+;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,8 +174,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 150px 200px;
-    width: auto;
+    padding: 120px 200px;
+    flex: 0 0;
 }
 
 .quote {
@@ -188,7 +189,9 @@ button {
     display: flex;
     font-size: 18px;
     font-weight: bolder;
+    text-align: right;
     align-self: flex-end;
+
 }
 
 /* -----------Part-4---------- */
@@ -206,11 +209,36 @@ button {
     background-color: #3882f6;
     justify-content: space-between;
     align-items: center;
-    width: 40em;
+    width: 45em;
     border-radius: 6px;
-    padding: 30px 100px;
+    padding: 40px 100px;
 }
 
-.sign-up{
-    border: #e5e7eb solid 1px;
+.sign-up {
+    border: #e5e7eb solid 2px;
+}
+
+h3{
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: bolder;    
+    
+}
+
+.part-4 p{
+    width: max-content;
+}
+
+
+/* --------Footer------ */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer p{
+    color: #e5e7eb;
 }

@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    flex: 1 1;
 }
 
 .header {
@@ -131,9 +132,9 @@ button {
 
 .box-text-subcontainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 10px 300px 80px 300px;
+    padding: 10px 100px 80px 100px;
     gap: 50px;
     
 }
@@ -167,7 +168,28 @@ button {
 /* -------Part-3------ */
 
 .part-3{
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 150px 200px;
+    width: auto;
 }
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:22em;
+}
+
+.name{
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+/* -----------Part-4---------- */
+

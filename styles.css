@@ -9,7 +9,8 @@ source: https://fonts.google.com/specimen/Roboto*/
 }
 
 body {
-background-color: blue;
+background-color: #3882f6;
+   
 max-width: inherit;
     display: flex;
     flex-direction: column;

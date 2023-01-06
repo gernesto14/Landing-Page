@@ -9,6 +9,7 @@ source: https://fonts.google.com/specimen/Roboto*/
 }
 
 body {
+background-color: blue;
 max-width: inherit;
     display: flex;
     flex-direction: column;

@@ -9,15 +9,19 @@ source: https://fonts.google.com/specimen/Roboto*/
 }
 
 body {
-    background-color: #7efda0c0;
+    /* background-color: #7efda0c0; */
+    width: 100%;
 
 }
 
 .main-container {
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    flex-grow: 1;
+    width: inherit;
+    max-width: inherit;
+
 
 }
 

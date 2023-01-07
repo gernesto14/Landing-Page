@@ -3,6 +3,9 @@ Create web page from given design
 
 Source: https://www.theodinproject.com/lessons/foundations-landing-page
 
+GitHub hosting exercise live:
+ https://gernesto14.github.io/Landing-Page/
+
 
 63% Complete
 Project: Landing Page

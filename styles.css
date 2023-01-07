@@ -9,13 +9,16 @@ source: https://fonts.google.com/specimen/Roboto*/
 }
 
 body {
-background-color: #3882f6;
-   
-max-width: inherit;
+    background-color: #7efda0c0;
+
+}
+
+.main-container {
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    flex: 1 1;
+
 }
 
 .header {
@@ -118,8 +121,7 @@ button {
 /* -------Part-2------ */
 
 .part-2 {
-    background-color:none
-;
+    background-color: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,27 +223,27 @@ button {
     border: #e5e7eb solid 2px;
 }
 
-h3{
+h3 {
     color: #e5e7eb;
     font-size: 20px;
-    font-weight: bolder;    
-    
+    font-weight: bolder;
+
 }
 
-.part-4 p{
+.part-4 p {
     width: max-content;
 }
 
 
 /* --------Footer------ */
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
     padding: 30px;
 }
 
-.footer p{
+.footer p {
     color: #e5e7eb;
 }
